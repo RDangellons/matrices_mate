@@ -1,11 +1,13 @@
 import numpy as np
 
 # Definir las matrices
-A = np.array([[3,0,-1],])
+A = np.array([[3,7,1],
+              [4,3,2],
+              [5,4,2]])
 
-B = np.array([[2,-1],
-              [0,2],
-              [1,2]])
+B = np.array([[6,1,4],
+              [3,2,7],
+              [9,8,2]])
 
 # Multiplicar las matrices
 C = np.dot(A, B)
